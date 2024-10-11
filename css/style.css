@@ -129,12 +129,12 @@ section{
     -webkit-background-clip: text;
     background-position: -33rem 0;
     animation: homeBgText 6s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .home.show-animated .home-content .text-animate h3{
     animation: homeBgText 6s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .home-content .text-animate h3::before {
@@ -150,7 +150,7 @@ section{
 }
 .home.show-animated .home-content .text-animate h3::before{
     animation: homeCursorText 6s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .home-content p{
@@ -184,7 +184,7 @@ section{
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: .3s;
 }
 
 .btn-box .btn:hover{
@@ -213,7 +213,7 @@ section{
     height: 100%;
     background: var(--bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .btn-box .btn:hover::before {
@@ -260,7 +260,7 @@ section{
     height: 100%;
     background: #00abf0;
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .home-sci a:hover::before {
@@ -456,7 +456,7 @@ span{
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .education-content .content:hover::before{
@@ -532,7 +532,7 @@ span{
     height: 100%;
     background: var(--bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .skills-box .skills-content:hover::before {
@@ -655,7 +655,7 @@ span{
     background: var(--second-bg-color);
     border-radius: .6rem;
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .contact form .input-box .input-field input:focus~.focus,
@@ -718,7 +718,7 @@ span{
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .footer-iconTop a:hover::before {
@@ -728,7 +728,7 @@ span{
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--bg-color);
-    transition: .5s;
+    transition: .3s;
 }
 
 .footer-iconTop a:hover i{
